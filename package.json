@@ -2,11 +2,17 @@
   "name": "ushi",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc && cp -R src/* dist"
   },
-  "keywords": ["AWS", "infra", "EC2", "AMI"],
+  "keywords": [
+    "AWS",
+    "infra",
+    "EC2",
+    "AMI"
+  ],
   "author": {
     "name": "moba1",
     "email": "moba2@proton.me",
@@ -19,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/moba1/ushi/issues"
   },
-  "license": "CC0-1.0"
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
