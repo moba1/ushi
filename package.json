@@ -1,0 +1,23 @@
+{
+  "name": "ushi",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["AWS", "infra", "EC2", "AMI"],
+  "author": {
+    "name": "moba1",
+    "email": "moba2@proton.me",
+    "url": "https://github.com/moba1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moba1/ushi"
+  },
+  "bugs": {
+    "url": "https://github.com/moba1/ushi/issues"
+  },
+  "license": "CC0-1.0"
+}
